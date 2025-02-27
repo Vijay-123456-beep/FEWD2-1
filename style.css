@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #97c3dd;
     margin: 0;
     padding: 0;
 }
@@ -9,9 +9,21 @@ body {
     max-width: 500px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-size: 24px;
+    color: #e51034;
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ef1515;
 }
 
 input[type="text"], input[type="email"], input[type="tel"], select, textarea {
@@ -19,15 +31,19 @@ input[type="text"], input[type="email"], input[type="tel"], select, textarea {
     padding: 10px;
     margin: 5px 0;
     box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 input[type="submit"] {
     background-color: #007bff;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 20px;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 16px;
 }
 
 input[type="submit"]:hover {
